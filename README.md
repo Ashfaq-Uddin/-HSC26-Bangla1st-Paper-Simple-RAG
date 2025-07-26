@@ -67,4 +67,46 @@ Install all Python dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## ✅ Libraries & Packages Used
+
+The `requirements.txt` file contains all necessary Python packages:
+
+langchain
+langchain-community
+langchain-openai
+langchainhub
+chromadb
+openai
+huggingface-hub
+sentence-transformers
+python-dotenv
+gradio
+
+## 📦 Library Usage & Purpose (from actual imports)
+| Library                            | Import                                    | Purpose                                              |
+| ---------------------------------- | ----------------------------------------- | ---------------------------------------------------- |
+| `os`                               | `import os`                               | File path manipulation, directory checking           |
+| `pytesseract`                      | `import pytesseract`                      | OCR on PDF images (Bangla language supported)        |
+| `pdf2image`                        | `from pdf2image import convert_from_path` | Converts PDF pages to images for OCR                 |
+| `camelot`                          | `import camelot`                          | Table extraction from PDFs                           |
+| `langchain.document_loaders`       | `TextLoader`                              | Load raw text file into LangChain `Document`         |
+| `langchain.text_splitter`          | `RecursiveCharacterTextSplitter`          | Create semantic chunks from the loaded text          |
+| `langchain_community.vectorstores` | `Chroma`                                  | Store embeddings in a persistent vectorstore         |
+| `langchain.embeddings`             | `HuggingFaceEmbeddings`                   | Use a multilingual embedding model (`BAAI/bge-m3`)   |
+| `langchain.chains`                 | `RetrievalQA`                             | Set up the question-answering logic over vectorstore |
+| `gradio`                           | `import gradio as gr`                     | Build simple interactive UI for query input/output   |
+
+
+🤖 Sample Queries & Expected Outputs
+You can ask your questions in Bangla or English. Below are three sample Bangla queries:
+
+| 🔍 প্রশ্ন                                       | 🧠 প্রত্যাশিত উত্তর |
+| ----------------------------------------------- | ------------------- |
+| অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?         | শুম্ভুনাথ           |
+| কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে? | মামা                |
+| বিয়ের সময় কল্যাণীর প্রকৃত বয়স কত ছিল?        | ১৫ বছর              |
+
+![RAG Chat](./10MS-RAG-Model.jpg)
 
