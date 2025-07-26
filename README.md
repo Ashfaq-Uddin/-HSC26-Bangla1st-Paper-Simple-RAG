@@ -114,5 +114,5 @@ You can ask your questions in Bangla or English. Below are three sample Bangla q
 ## Application
 To run the application locally, you will also need your own OpenAI API key stored in a `.env` file. However, I am using my own API key and have converted the `app.ipynb` notebook into an `app.py` file, which is hosted on Hugging Face Spaces. You can test the application here: [HSC26-Bangla1st-Paper-Simple-RAG](https://huggingface.co/spaces/ashfaqsayeem/HSC26-Bangla1st-Paper-Simple-RAG)
 
-## Here are the six questions you asked, compiled into a sorted PDF for easier analysis and review: [Download PDF](./10MS_Questions_RAG.pdf)
+## Here are the six questions you asked, compiled into a sorted PDF for easier analysis and review: [PDF](./10MS_Questions_RAG.pdf)
 
