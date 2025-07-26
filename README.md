@@ -1,6 +1,7 @@
 # HSC26 Bangla 1st Paper Simple RAG project
 
-This project is a simple Retrieval-Augmented Generation (RAG) system capable of answering both Bangla and English questions using OCR-extracted content from an HSC Bangla 2026 1st Paper textbook PDF.
+This project is a simple Retrieval-Augmented Generation (RAG) system capable of answering both Bangla and English questions using OCR-extracted content from an HSC Bangla 2026 1st Paper textbook PDF. You can test the application here: [HSC26-Bangla1st-Paper-Simple-RAG](https://huggingface.co/spaces/ashfaqsayeem/HSC26-Bangla1st-Paper-Simple-RAG)
+
 
 ## 🚀 Setup Guide
 
