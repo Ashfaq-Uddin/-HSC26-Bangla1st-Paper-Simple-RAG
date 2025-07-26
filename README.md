@@ -19,7 +19,7 @@ This project is a simple Retrieval-Augmented Generation (RAG) system capable of 
 To run the OCR pipeline, the following **must be installed locally**:
 
 - **Tesseract OCR**
-  - 📥 [Download for Windows]((https://github.com/UB-Mannheim/tesseract/wiki))
+  - 📥 [Download for Windows](https://github.com/UB-Mannheim/tesseract/wiki)
   - https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe Download This!
   - Don't forget to select Bengali in additional settings during installing via .exe file
   - Add the install path (e.g., `C:\Program Files\Tesseract-OCR`) to your system `PATH`.
