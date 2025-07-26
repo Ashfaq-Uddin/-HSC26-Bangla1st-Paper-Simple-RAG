@@ -110,3 +110,6 @@ You can ask your questions in Bangla or English. Below are three sample Bangla q
 
 ![RAG Chat](./10MS-RAG-Model.jpg)
 
+## Application
+To run the application locally, you will also need your own OpenAI API key stored in a `.env` file. However, I am using my own API key and have converted the `app.ipynb` notebook into an `app.py` file, which is hosted on Hugging Face Spaces. You can test the application here: [HSC26-Bangla1st-Paper-Simple-RAG](https://huggingface.co/spaces/ashfaqsayeem/HSC26-Bangla1st-Paper-Simple-RAG)
+
