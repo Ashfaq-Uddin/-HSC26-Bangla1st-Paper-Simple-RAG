@@ -73,16 +73,16 @@ pip install -r requirements.txt
 
 The `requirements.txt` file contains all necessary Python packages:
 
-langchain
-langchain-community
-langchain-openai
-langchainhub
-chromadb
-openai
-huggingface-hub
-sentence-transformers
-python-dotenv
-gradio
+- langchain  
+- langchain-community  
+- langchain-openai  
+- langchainhub  
+- chromadb  
+- openai  
+- huggingface-hub  
+- sentence-transformers  
+- python-dotenv  
+- gradio  
 
 ## 📦 Library Usage & Purpose (from actual imports)
 | Library                            | Import                                    | Purpose                                              |
